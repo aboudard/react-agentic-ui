@@ -1,0 +1,34 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# Next.js
+/.next/
+/out/
+/build/
+
+# Testing
+/coverage/
+
+# Environment variables
+.env*
+!.env.example
+!.env.*.example
+
+# Deployment
+/.vercel/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Logs and debug output
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Operating system files and keys
+.DS_Store
+*.pem
